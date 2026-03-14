@@ -26,7 +26,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - archinstall.json
 
 # Collections
 collections:
