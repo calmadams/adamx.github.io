@@ -1,0 +1,64 @@
+{
+  "__version__": "2.8.0",
+  "additional_packages": [
+    "git",
+    "vim",
+    "curl",
+    "wget",
+    "htop",
+    "bash-completion",
+    "networkmanager",
+    "firefox"
+  ],
+  "archinstall-language": "Portuguese",
+  "audio_config": {
+    "audio": "pipewire"
+  },
+  "bootloader": "Grub",
+  "debug": false,
+  "disk_config": {
+    "config_type": "default_layout",
+    "device_modifications": []
+  },
+  "disk_encryption": null,
+  "hostname": "archlinux",
+  "kernels": [
+    "linux"
+  ],
+  "locale_config": {
+    "kb_layout": "br-abnt2",
+    "sys_enc": "UTF-8",
+    "sys_lang": "pt_BR.UTF-8"
+  },
+  "mirror_config": {
+    "mirror_regions": {
+      "Brazil": [
+        "https://mirror.ufscar.br/archlinux/$repo/os/$arch",
+        "https://archlinux.c3sl.ufpr.br/$repo/os/$arch"
+      ]
+    }
+  },
+  "network_config": {
+    "nics": [],
+    "type": "nm"
+  },
+  "no_pkg_lookups": false,
+  "ntp": true,
+  "offline": false,
+  "packages": [],
+  "profile_config": {
+    "gfx_driver": "All open-source (default)",
+    "greeter": "sddm",
+    "profile": {
+      "classtype": "Desktop",
+      "details": [
+        "KDE Plasma"
+      ]
+    }
+  },
+  "root_encryption_password": null,
+  "silent": false,
+  "swap": true,
+  "timezone": "America/Sao_Paulo",
+  "uki": false
+}
