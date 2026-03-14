@@ -9,6 +9,12 @@ Welcome to **adamx.me** — Guilherme Adams' personal site.
 
 ---
 
+## Pages
+
+- [Uses](/uses/) — software and tools I use
+
+---
+
 ## archinstall config
 
 My Arch Linux automated installation config is available at:
