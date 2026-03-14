@@ -1,0 +1,47 @@
+# Jekyll Configuration
+title: "adamx"
+description: "adamx.me - personal site"
+url: "https://adamx.me"
+baseurl: ""
+
+# Author
+author:
+  name: "Guilherme Adams"
+
+# Theme
+theme: minima
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Plugins (GitHub Pages supported)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - archinstall.json
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
